@@ -15,6 +15,7 @@ require (
 	github.com/ganigeorgiev/fexpr v0.4.0
 	github.com/go-ozzo/ozzo-validation/v4 v4.3.0
 	github.com/goccy/go-json v0.10.2
+	github.com/godruoyi/go-snowflake v0.0.2
 	github.com/golang-jwt/jwt/v4 v4.5.0
 	github.com/labstack/echo/v5 v5.0.0-20230722203903-ec5b858dab61
 	github.com/lib/pq v1.10.9
@@ -55,7 +56,6 @@ require (
 	github.com/dlclark/regexp2 v1.10.0 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/go-sourcemap/sourcemap v2.1.3+incompatible // indirect
-	github.com/godruoyi/go-snowflake v0.0.2 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/google/pprof v0.0.0-20230926050212-f7f687d19a98 // indirect
