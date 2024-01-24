@@ -57,3 +57,24 @@ DATABASE="postgresql://user:pass@localhost/postgres?sslmode=disable" \
     go run -tags pq github.com/pocketbase/pocketbase/examples/base serve  
 
 ```
+
+### Docker
+
+```bash
+# build docker image
+docker buildx build --platform linux/amd64 -t <your-name>/postgresbase:1.0.0 .  
+
+# before running application generate RSA256 public-private key pair for jwt signing
+# you can use following command to generate RSA key pair
+openssl genrsa -out ./keys/private.pem 2048
+openssl rsa -in ./keys/private.pem -outform PEM -pubout -out ./keys/public.pem
+
+# run docker image
+docker run -d --name postgresbase \
+    -p 8090:8090 \
+    -e LOGS_DATABASE="postgresql://user:pass@<postgres-ip>:5432/logs?sslmode=disable" \
+    -e DATABASE="postgresql://user:pass@<postgres-ip>:5432/postgres?sslmode=disable" \
+    -e JWT_PRIVATE_KEY="$(cat $PWD/keys/private.pem)" \
+    -e JWT_PUBLIC_KEY="$(cat $PWD/keys/public.pem)" \
+    <your-name>/postgresbase:1.0.0 serve --http=0.0.0.0:8090
+```

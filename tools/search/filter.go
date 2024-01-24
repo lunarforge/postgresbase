@@ -299,7 +299,9 @@ func resolveEqualExpr(equal bool, left, right *ResolverResult) dbx.Expression {
 		// always use `IS NOT` instead of `!=` because direct non-equal comparisons
 		// to nullable column values that are actually NULL yields to NULL instead of TRUE, eg.:
 		// `'example' != nullableColumn` -> NULL even if nullableColumn row value is NULL
-		equalOp = "IS NOT"
+		// !CHANGED: in sqlite is not works fine but in postgres should be as a operator !=
+		// equalOp = "IS NOT"
+		equalOp = "!="
 		nullEqualOp = equalOp
 		concatOp = "AND"
 		nullExpr = "IS NOT NULL"
