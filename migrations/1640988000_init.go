@@ -43,6 +43,12 @@ func init() {
 			end;
 			$$ language plpgsql immutable;
 
+			CREATE OR REPLACE FUNCTION json_extract(json_data json, key text)
+			RETURNS text AS $$
+			BEGIN
+				RETURN json_data ->> key;
+			END;
+			$$ LANGUAGE plpgsql;
 
 			CREATE SEQUENCE IF NOT EXISTS global_id_seq;
 			CREATE OR REPLACE FUNCTION generate_snowflake(OUT result text) AS $$

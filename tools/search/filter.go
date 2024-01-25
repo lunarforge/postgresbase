@@ -292,7 +292,8 @@ func resolveEqualExpr(equal bool, left, right *ResolverResult) dbx.Expression {
 	isRightEmpty := isEmptyIdentifier(right) || (len(right.Params) == 1 && hasEmptyParamValue(right))
 
 	equalOp := "="
-	nullEqualOp := "IS"
+	// !CHANGED: in sqlite is not works fine but in postgres should be as a operator !=
+	nullEqualOp := "="
 	concatOp := "OR"
 	nullExpr := "IS NULL"
 	if !equal {

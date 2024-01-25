@@ -10,6 +10,13 @@ var LogsMigrations migrate.MigrationsList
 func init() {
 	LogsMigrations.Register(func(db dbx.Builder) error {
 		_, err := db.NewQuery(`
+			CREATE OR REPLACE FUNCTION json_extract(json_data json, key text)
+			RETURNS text AS $$
+			BEGIN
+				RETURN json_data ->> key;
+			END;
+			$$ LANGUAGE plpgsql;
+
 			-- Create a new IMMUTABLE function that wraps date_trunc
 			CREATE OR REPLACE FUNCTION immutable_date_trunc(text, timestamp with time zone) RETURNS timestamp with time zone AS $$
 			BEGIN
