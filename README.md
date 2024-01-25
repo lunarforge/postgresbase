@@ -76,5 +76,5 @@ docker run -d --name postgresbase \
     -e DATABASE="postgresql://user:pass@<postgres-ip>:5432/postgres?sslmode=disable" \
     -e JWT_PRIVATE_KEY="$(cat $PWD/keys/private.pem)" \
     -e JWT_PUBLIC_KEY="$(cat $PWD/keys/public.pem)" \
-    <your-name>/postgresbase:1.0.0 serve --http=0.0.0.0:8090
+    <your-name>/postgresbase:1.0.0
 ```

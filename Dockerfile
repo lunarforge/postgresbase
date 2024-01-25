@@ -21,8 +21,11 @@ COPY --from=build-env /src/server /app/
 
 # create user and give it permissions
 RUN addgroup -S appgroup && adduser -S appuser -G appgroup
+RUN mkdir /app/pb_data
+RUN mkdir /app/pb_migrations
+RUN mkdir /app/pb_config
+
 RUN chown -R appuser:appgroup /app
 USER appuser
 
-ENV CGO_ENABLED=0
-ENTRYPOINT ["/app/server"]
+CMD ["/app/server","serve", "--http=0.0.0.0:8090"]
