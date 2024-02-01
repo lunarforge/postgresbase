@@ -7,6 +7,9 @@
 ## Fork Explanation ❤️ Pocketbase  
 [Pocketbase Documentation](https://pocketbase.io/docs)  
 
+> Important Note: Go modules does not support module aliasing. So we changed the module name to "github.com/pocketbase/pocketbase" to "github.com/AlperRehaYAZGAN/postgresbase" in go.mod file and all imported package prefixes. You could change it back to "github.com/pocketbase/pocketbase" if you want to customize the project.  
+
+
 Pocketbase is a great product and very efficient for small-mid projects. It has no any additional setup for any other features and it is very easy to use on a single server.  
 
 In our use-case we really need to use postgres as a main database and operate it manually. Also we love what Pocketbase does with CRUD operation and RBAC implementations via simple notations. So we want to use it. Thus we forked it and make it compatible with postgres using its own library called ["pocketbase/dbx"](https://github.com/pocketbase/dbx).  
@@ -18,6 +21,13 @@ We just added a following features additinonally to the Pocketbase:
 - We converted [created and updated columns](https://github.com/AlperRehaYAZGAN/postgresbase/blob/master/migrations/1640988000_init.go#L73-L74) to postgres native date types `TIMESTAMPTZ` to support native date operations  
 - We write [json functions for postgres](https://github.com/AlperRehaYAZGAN/postgresbase/blob/master/migrations/1640988000_init.go) in migration files to support json equivalent operations from Pocketbase.  
 - We add support [RSA256 JWT Public Private Keys](https://github.com/AlperRehaYAZGAN/postgresbase/blob/master/tools/security/jwt.go) while encoding and decoding token. In our case we need to implement Pocketbase to our existing project with RSA keypair. Currently (Pocketbase v0.20.5) supports symmetric encoding only and we extend it.  
+- We add [Dockerfile](./Dockerfile) and [docker-compose.yml](./docker-compose.yml) for building and running the project.  
+
+## TODO  
+  
+
+- [ ] OAuth2 challenge and state keys stored in cache on single instance. We need to make it remote cache or database to support oauth2 on deployed multiple instances.  
+- [ ] Jwt Extra Claims support on after login and register.  
 
 
 ## Usage  
@@ -54,7 +64,7 @@ export JWT_PUBLIC_KEY=$(cat ./keys/public.pem)
 CGO_ENABLED=0 \
 LOGS_DATABASE="postgresql://user:pass@localhost/logs?sslmode=disable" \
 DATABASE="postgresql://user:pass@localhost/postgres?sslmode=disable" \
-    go run -tags pq github.com/pocketbase/pocketbase/examples/base serve  
+    go run -tags pq ./examples/base serve  
 
 ```
 
@@ -78,3 +88,39 @@ docker run -d --name postgresbase \
     -e JWT_PUBLIC_KEY="$(cat $PWD/keys/public.pem)" \
     <your-name>/postgresbase:1.0.0
 ```
+
+## Extend Pocketbase (Postgresbase)  
+We just changed the database connection and added some features to Pocketbase. So you can use all features of current Pocketbase v0.25.0. You could check the [Pocketbase Documentation](https://pocketbase.io/docs) for more information. You can easily use Pocketbase as a library and extend it like shown below.  
+
+- Install library
+```bash
+go get github.com/AlperRehaYAZGAN/postgresbase # go version v1.21 or higher
+```
+
+- You can use everything like Pocketbase but only change the import path
+```go
+package main
+
+import (
+	"log"
+	"os"
+	"time"
+
+	pocketbase "github.com/AlperRehaYAZGAN/postgresbase" // ! Just change the import path
+	"github.com/AlperRehaYAZGAN/postgresbase/core" // ! Just change the import path
+	"github.com/AlperRehaYAZGAN/postgresbase/plugins/migratecmd" // ! Just change the import path
+)
+
+func main() {
+	app := pocketbase.New()
+
+	app.OnAfterBootstrap().PreAdd(func(e *core.BootstrapEvent) error {
+		app.Dao().ModelQueryTimeout = time.Duration(queryTimeout) * time.Second
+		return nil
+	})
+
+	if err := app.Start(); err != nil {
+		log.Fatal(err)
+	}
+}
+```  

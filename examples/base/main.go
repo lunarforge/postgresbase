@@ -5,9 +5,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/pocketbase/pocketbase"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/plugins/migratecmd"
+	pocketbase "github.com/AlperRehaYAZGAN/postgresbase"
+	"github.com/AlperRehaYAZGAN/postgresbase/core"
+	"github.com/AlperRehaYAZGAN/postgresbase/plugins/migratecmd"
 )
 
 func main() {

@@ -21,6 +21,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/AlperRehaYAZGAN/postgresbase/core"
+	m "github.com/AlperRehaYAZGAN/postgresbase/migrations"
+	"github.com/AlperRehaYAZGAN/postgresbase/plugins/jsvm/internal/types/generated"
+	"github.com/AlperRehaYAZGAN/postgresbase/tools/template"
 	"github.com/dop251/goja"
 	"github.com/dop251/goja_nodejs/console"
 	"github.com/dop251/goja_nodejs/process"
@@ -29,10 +33,6 @@ import (
 	"github.com/fsnotify/fsnotify"
 	"github.com/labstack/echo/v5"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/core"
-	m "github.com/pocketbase/pocketbase/migrations"
-	"github.com/pocketbase/pocketbase/plugins/jsvm/internal/types/generated"
-	"github.com/pocketbase/pocketbase/tools/template"
 )
 
 const (
