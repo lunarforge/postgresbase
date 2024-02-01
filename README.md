@@ -57,14 +57,12 @@ openssl rsa -in ./keys/private.pem -outform PEM -pubout -out ./keys/public.pem
 # after generating keys, you can set as environment variables
 export JWT_PRIVATE_KEY=$(cat ./keys/private.pem)
 export JWT_PUBLIC_KEY=$(cat ./keys/public.pem)
+export CGO_ENABLED=0
+exprot LOGS_DATABASE="postgresql://user:pass@localhost/logs?sslmode=disable"
+export DATABASE="postgresql://user:pass@localhost/postgres?sslmode=disable"
 
 # export is success you can run the project ✅
-
-# run the project with postgres connection info
-CGO_ENABLED=0 \
-LOGS_DATABASE="postgresql://user:pass@localhost/logs?sslmode=disable" \
-DATABASE="postgresql://user:pass@localhost/postgres?sslmode=disable" \
-    go run -tags pq ./examples/base serve  
+go run -tags pq ./examples/base serve  
 
 ```
 
@@ -108,19 +106,34 @@ import (
 
 	pocketbase "github.com/AlperRehaYAZGAN/postgresbase" // ! Just change the import path
 	"github.com/AlperRehaYAZGAN/postgresbase/core" // ! Just change the import path
-	"github.com/AlperRehaYAZGAN/postgresbase/plugins/migratecmd" // ! Just change the import path
 )
 
 func main() {
 	app := pocketbase.New()
 
-	app.OnAfterBootstrap().PreAdd(func(e *core.BootstrapEvent) error {
-		app.Dao().ModelQueryTimeout = time.Duration(queryTimeout) * time.Second
-		return nil
-	})
+	// TODO: Add your own plugins, logic or any pocketbase supported features
+	// ...
 
 	if err := app.Start(); err != nil {
 		log.Fatal(err)
 	}
 }
 ```  
+
+- You could run app with following command:
+```bash
+# before running application generate RSA256 public-private key pair for jwt signing
+# you can use following command to generate RSA key pair
+openssl genrsa -out ./keys/private.pem 2048
+openssl rsa -in ./keys/private.pem -outform PEM -pubout -out ./keys/public.pem
+
+# set required environment variables
+export JWT_PRIVATE_KEY=$(cat ./keys/private.pem)
+export JWT_PUBLIC_KEY=$(cat ./keys/public.pem)
+export CGO_ENABLED=0
+export LOGS_DATABASE="postgresql://user:pass@localhost/logs?sslmode=disable"
+export DATABASE="postgresql://user:pass@localhost/postgres?sslmode=disable"
+
+# run the application
+go run -tags pq main.go serve --http=0.0.0.0:8090
+```
