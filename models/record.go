@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"os"
 	"regexp"
 	"strconv"
 	"time"
@@ -930,8 +931,20 @@ func (m *Record) SetPassword(password string) error {
 		return errors.New("The provided plain password is empty")
 	}
 
+	// !CHANGED: bcrypt salt amount is increased from 10 to 12 (old ersion: 10). Get it from env var
+	// get cost from env
+	cost := 12
+	costArg := os.Getenv("BCRYPT_COST")
+	if costArg != "" {
+		costAi, err := strconv.Atoi(costArg)
+		if err != nil {
+			return errors.New("The provided BCRYPT_COST is not a valid number")
+		}
+		cost = costAi
+	}
+
 	// hash the password
-	hashedPassword, err := bcrypt.GenerateFromPassword([]byte(password), 12)
+	hashedPassword, err := bcrypt.GenerateFromPassword([]byte(password), cost)
 	if err != nil {
 		return err
 	}

@@ -61,6 +61,9 @@ export CGO_ENABLED=0
 exprot LOGS_DATABASE="postgresql://user:pass@localhost/logs?sslmode=disable"
 export DATABASE="postgresql://user:pass@localhost/postgres?sslmode=disable"
 
+# optional ENV_VARS
+export BCRYPT_COST=10 # default is 12
+
 # export is success you can run the project ✅
 go run -tags pq ./examples/base serve  
 
@@ -133,6 +136,9 @@ export JWT_PUBLIC_KEY=$(cat ./keys/public.pem)
 export CGO_ENABLED=0
 export LOGS_DATABASE="postgresql://user:pass@localhost/logs?sslmode=disable"
 export DATABASE="postgresql://user:pass@localhost/postgres?sslmode=disable"
+
+# optional ENV_VARS
+export BCRYPT_COST=10 # default is 12
 
 # run the application
 go run -tags pq main.go serve --http=0.0.0.0:8090
