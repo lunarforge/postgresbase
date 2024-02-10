@@ -9,6 +9,8 @@ import (
 const (
 	// DefaultIdLength is the default length of the generated model id.
 	DefaultIdLength = 15
+	SnowflakeMinLen = 8
+	SnowflakeMaxLen = 32
 
 	// DefaultIdAlphabet is the default characters set used for generating the model id.
 	DefaultIdAlphabet = "abcdefghijklmnopqrstuvwxyz0123456789"
