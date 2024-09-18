@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/lunarforge/postgresbase/tools/security"
-	"github.com/lunarforge/postgresbase/tools/store"
+	"github.com/lunarforge/xbase/tools/security"
+	"github.com/lunarforge/xbase/tools/store"
 	"github.com/ganigeorgiev/fexpr"
 	"github.com/pocketbase/dbx"
 	"github.com/spf13/cast"

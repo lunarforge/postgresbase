@@ -6,12 +6,12 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/lunarforge/postgresbase/core"
-	"github.com/lunarforge/postgresbase/forms"
-	"github.com/lunarforge/postgresbase/models"
-	"github.com/lunarforge/postgresbase/tools/filesystem"
-	"github.com/lunarforge/postgresbase/tools/rest"
-	"github.com/lunarforge/postgresbase/tools/types"
+	"github.com/lunarforge/xbase/core"
+	"github.com/lunarforge/xbase/forms"
+	"github.com/lunarforge/xbase/models"
+	"github.com/lunarforge/xbase/tools/filesystem"
+	"github.com/lunarforge/xbase/tools/rest"
+	"github.com/lunarforge/xbase/tools/types"
 	"github.com/labstack/echo/v5"
 	"github.com/spf13/cast"
 )

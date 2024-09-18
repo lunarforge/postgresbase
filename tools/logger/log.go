@@ -4,7 +4,7 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/lunarforge/postgresbase/tools/types"
+	"github.com/lunarforge/xbase/tools/types"
 )
 
 // Log is similar to [slog.Record] bit contains the log attributes as

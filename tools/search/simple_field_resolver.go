@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/lunarforge/postgresbase/tools/inflector"
-	"github.com/lunarforge/postgresbase/tools/list"
+	"github.com/lunarforge/xbase/tools/inflector"
+	"github.com/lunarforge/xbase/tools/list"
 	"github.com/pocketbase/dbx"
 )
 

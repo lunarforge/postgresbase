@@ -5,12 +5,12 @@ import (
 	"log/slog"
 	"net/http"
 
-	"github.com/lunarforge/postgresbase/core"
-	"github.com/lunarforge/postgresbase/daos"
-	"github.com/lunarforge/postgresbase/forms"
-	"github.com/lunarforge/postgresbase/models"
-	"github.com/lunarforge/postgresbase/resolvers"
-	"github.com/lunarforge/postgresbase/tools/search"
+	"github.com/lunarforge/xbase/core"
+	"github.com/lunarforge/xbase/daos"
+	"github.com/lunarforge/xbase/forms"
+	"github.com/lunarforge/xbase/models"
+	"github.com/lunarforge/xbase/resolvers"
+	"github.com/lunarforge/xbase/tools/search"
 	"github.com/labstack/echo/v5"
 	"github.com/pocketbase/dbx"
 )

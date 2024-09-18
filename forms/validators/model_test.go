@@ -3,8 +3,8 @@ package validators_test
 import (
 	"testing"
 
-	"github.com/lunarforge/postgresbase/forms/validators"
-	"github.com/lunarforge/postgresbase/tests"
+	"github.com/lunarforge/xbase/forms/validators"
+	"github.com/lunarforge/xbase/tests"
 )
 
 func TestUniqueId(t *testing.T) {

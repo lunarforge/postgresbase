@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lunarforge/postgresbase/tools/subscriptions"
+	"github.com/lunarforge/xbase/tools/subscriptions"
 )
 
 func TestNewDefaultClient(t *testing.T) {

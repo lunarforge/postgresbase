@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lunarforge/postgresbase/tools/types"
+	"github.com/lunarforge/xbase/tools/types"
 )
 
 // note: used primarily for the tests

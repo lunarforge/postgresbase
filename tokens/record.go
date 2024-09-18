@@ -3,9 +3,9 @@ package tokens
 import (
 	"errors"
 
-	"github.com/lunarforge/postgresbase/core"
-	"github.com/lunarforge/postgresbase/models"
-	"github.com/lunarforge/postgresbase/tools/security"
+	"github.com/lunarforge/xbase/core"
+	"github.com/lunarforge/xbase/models"
+	"github.com/lunarforge/xbase/tools/security"
 	"github.com/golang-jwt/jwt/v4"
 )
 

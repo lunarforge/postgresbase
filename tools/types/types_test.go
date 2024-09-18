@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/lunarforge/postgresbase/tools/types"
+	"github.com/lunarforge/xbase/tools/types"
 )
 
 func TestPointer(t *testing.T) {

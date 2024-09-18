@@ -5,8 +5,8 @@ import (
 	"log/slog"
 	"strings"
 
-	"github.com/lunarforge/postgresbase/tools/logger"
-	"github.com/lunarforge/postgresbase/tools/store"
+	"github.com/lunarforge/xbase/tools/logger"
+	"github.com/lunarforge/xbase/tools/store"
 	"github.com/fatih/color"
 	"github.com/spf13/cast"
 )

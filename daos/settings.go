@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/lunarforge/postgresbase/models"
-	"github.com/lunarforge/postgresbase/models/settings"
-	"github.com/lunarforge/postgresbase/tools/security"
+	"github.com/lunarforge/xbase/models"
+	"github.com/lunarforge/xbase/models/settings"
+	"github.com/lunarforge/xbase/tools/security"
 )
 
 // FindSettings returns and decode the serialized app settings param value.

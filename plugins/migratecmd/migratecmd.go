@@ -23,11 +23,11 @@ import (
 	"time"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/lunarforge/postgresbase/core"
-	"github.com/lunarforge/postgresbase/migrations"
-	"github.com/lunarforge/postgresbase/models"
-	"github.com/lunarforge/postgresbase/tools/inflector"
-	"github.com/lunarforge/postgresbase/tools/migrate"
+	"github.com/lunarforge/xbase/core"
+	"github.com/lunarforge/xbase/migrations"
+	"github.com/lunarforge/xbase/models"
+	"github.com/lunarforge/xbase/tools/inflector"
+	"github.com/lunarforge/xbase/tools/migrate"
 	"github.com/spf13/cobra"
 )
 

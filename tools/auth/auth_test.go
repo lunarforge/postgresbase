@@ -3,7 +3,7 @@ package auth_test
 import (
 	"testing"
 
-	"github.com/lunarforge/postgresbase/tools/auth"
+	"github.com/lunarforge/xbase/tools/auth"
 )
 
 func TestNewProviderByName(t *testing.T) {

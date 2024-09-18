@@ -3,9 +3,9 @@ package daos
 import (
 	"errors"
 
-	"github.com/lunarforge/postgresbase/models"
-	"github.com/lunarforge/postgresbase/tools/list"
-	"github.com/lunarforge/postgresbase/tools/security"
+	"github.com/lunarforge/xbase/models"
+	"github.com/lunarforge/xbase/tools/list"
+	"github.com/lunarforge/xbase/tools/security"
 	"github.com/pocketbase/dbx"
 )
 

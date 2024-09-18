@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lunarforge/postgresbase/models/schema"
-	"github.com/lunarforge/postgresbase/tools/types"
+	"github.com/lunarforge/xbase/models/schema"
+	"github.com/lunarforge/xbase/tools/types"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 )
 

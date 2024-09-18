@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/lunarforge/postgresbase/core"
-	"github.com/lunarforge/postgresbase/models/settings"
-	"github.com/lunarforge/postgresbase/tools/filesystem"
-	"github.com/lunarforge/postgresbase/tools/security"
+	"github.com/lunarforge/xbase/core"
+	"github.com/lunarforge/xbase/models/settings"
+	"github.com/lunarforge/xbase/tools/filesystem"
+	"github.com/lunarforge/xbase/tools/security"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 )
 

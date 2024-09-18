@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"github.com/lunarforge/postgresbase/tools/mailer"
+	"github.com/lunarforge/xbase/tools/mailer"
 )
 
 var _ mailer.Mailer = (*TestMailer)(nil)

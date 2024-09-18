@@ -5,10 +5,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/lunarforge/postgresbase/forms/validators"
-	"github.com/lunarforge/postgresbase/tests"
-	"github.com/lunarforge/postgresbase/tools/filesystem"
-	"github.com/lunarforge/postgresbase/tools/rest"
+	"github.com/lunarforge/xbase/forms/validators"
+	"github.com/lunarforge/xbase/tests"
+	"github.com/lunarforge/xbase/tools/filesystem"
+	"github.com/lunarforge/xbase/tools/rest"
 )
 
 func TestUploadedFileSize(t *testing.T) {

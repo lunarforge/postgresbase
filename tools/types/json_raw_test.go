@@ -4,7 +4,7 @@ import (
 	"database/sql/driver"
 	"testing"
 
-	"github.com/lunarforge/postgresbase/tools/types"
+	"github.com/lunarforge/xbase/tools/types"
 )
 
 func TestParseJsonRaw(t *testing.T) {

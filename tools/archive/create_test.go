@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/lunarforge/postgresbase/tools/archive"
+	"github.com/lunarforge/xbase/tools/archive"
 )
 
 func TestCreateFailure(t *testing.T) {

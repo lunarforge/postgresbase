@@ -5,13 +5,13 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/lunarforge/postgresbase/models"
-	"github.com/lunarforge/postgresbase/models/schema"
-	"github.com/lunarforge/postgresbase/tools/dbutils"
-	"github.com/lunarforge/postgresbase/tools/inflector"
-	"github.com/lunarforge/postgresbase/tools/list"
-	"github.com/lunarforge/postgresbase/tools/security"
-	"github.com/lunarforge/postgresbase/tools/types"
+	"github.com/lunarforge/xbase/models"
+	"github.com/lunarforge/xbase/models/schema"
+	"github.com/lunarforge/xbase/tools/dbutils"
+	"github.com/lunarforge/xbase/tools/inflector"
+	"github.com/lunarforge/xbase/tools/list"
+	"github.com/lunarforge/xbase/tools/security"
+	"github.com/lunarforge/xbase/tools/types"
 	"github.com/pocketbase/dbx"
 )
 

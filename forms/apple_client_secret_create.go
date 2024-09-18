@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lunarforge/postgresbase/core"
+	"github.com/lunarforge/xbase/core"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/golang-jwt/jwt/v4"
 )

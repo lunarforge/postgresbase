@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/lunarforge/postgresbase/models"
-	"github.com/lunarforge/postgresbase/tools/list"
-	"github.com/lunarforge/postgresbase/tools/types"
+	"github.com/lunarforge/xbase/models"
+	"github.com/lunarforge/xbase/tools/list"
+	"github.com/lunarforge/xbase/tools/types"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 )
 

@@ -3,8 +3,8 @@ package daos
 import (
 	"time"
 
-	"github.com/lunarforge/postgresbase/models"
-	"github.com/lunarforge/postgresbase/tools/types"
+	"github.com/lunarforge/xbase/models"
+	"github.com/lunarforge/xbase/tools/types"
 	"github.com/pocketbase/dbx"
 )
 

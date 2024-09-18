@@ -3,9 +3,9 @@ package migrations
 import (
 	"fmt"
 
-	"github.com/lunarforge/postgresbase/daos"
-	"github.com/lunarforge/postgresbase/models"
-	"github.com/lunarforge/postgresbase/models/schema"
+	"github.com/lunarforge/xbase/daos"
+	"github.com/lunarforge/xbase/models"
+	"github.com/lunarforge/xbase/models/schema"
 	"github.com/pocketbase/dbx"
 )
 

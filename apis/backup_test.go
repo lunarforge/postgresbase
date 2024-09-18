@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lunarforge/postgresbase/core"
-	"github.com/lunarforge/postgresbase/tests"
+	"github.com/lunarforge/xbase/core"
+	"github.com/lunarforge/xbase/tests"
 	"github.com/labstack/echo/v5"
 	"gocloud.dev/blob"
 )

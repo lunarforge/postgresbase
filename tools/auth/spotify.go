@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/lunarforge/postgresbase/tools/types"
+	"github.com/lunarforge/xbase/tools/types"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/spotify"
 )

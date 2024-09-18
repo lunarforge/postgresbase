@@ -3,7 +3,7 @@ package security_test
 import (
 	"testing"
 
-	"github.com/lunarforge/postgresbase/tools/security"
+	"github.com/lunarforge/xbase/tools/security"
 	"github.com/golang-jwt/jwt/v4"
 )
 

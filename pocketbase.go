@@ -8,9 +8,9 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/lunarforge/postgresbase/cmd"
-	"github.com/lunarforge/postgresbase/core"
-	"github.com/lunarforge/postgresbase/tools/list"
+	"github.com/lunarforge/xbase/cmd"
+	"github.com/lunarforge/xbase/core"
+	"github.com/lunarforge/xbase/tools/list"
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"
 )

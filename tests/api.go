@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lunarforge/postgresbase/apis"
-	"github.com/lunarforge/postgresbase/core"
+	"github.com/lunarforge/xbase/apis"
+	"github.com/lunarforge/xbase/core"
 	"github.com/labstack/echo/v5"
 )
 

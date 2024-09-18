@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/lunarforge/postgresbase/core"
-	"github.com/lunarforge/postgresbase/daos"
-	"github.com/lunarforge/postgresbase/models"
-	"github.com/lunarforge/postgresbase/tools/migrate"
+	"github.com/lunarforge/xbase/core"
+	"github.com/lunarforge/xbase/daos"
+	"github.com/lunarforge/xbase/models"
+	"github.com/lunarforge/xbase/tools/migrate"
 	"github.com/pocketbase/dbx"
 )
 

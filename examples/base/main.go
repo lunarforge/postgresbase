@@ -5,9 +5,9 @@ import (
 	"os"
 	"time"
 
-	pocketbase "github.com/lunarforge/postgresbase"
-	"github.com/lunarforge/postgresbase/core"
-	"github.com/lunarforge/postgresbase/plugins/migratecmd"
+	pocketbase "github.com/lunarforge/xbase"
+	"github.com/lunarforge/xbase/core"
+	"github.com/lunarforge/xbase/plugins/migratecmd"
 )
 
 func main() {

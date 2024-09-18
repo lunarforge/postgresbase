@@ -3,7 +3,7 @@ package models
 import (
 	"strings"
 
-	"github.com/lunarforge/postgresbase/models/schema"
+	"github.com/lunarforge/xbase/models/schema"
 )
 
 // RequestInfo defines a HTTP request data struct, usually used

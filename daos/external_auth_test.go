@@ -3,8 +3,8 @@ package daos_test
 import (
 	"testing"
 
-	"github.com/lunarforge/postgresbase/models"
-	"github.com/lunarforge/postgresbase/tests"
+	"github.com/lunarforge/xbase/models"
+	"github.com/lunarforge/xbase/tests"
 	"github.com/pocketbase/dbx"
 )
 

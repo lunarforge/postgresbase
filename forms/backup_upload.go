@@ -3,9 +3,9 @@ package forms
 import (
 	"context"
 
-	"github.com/lunarforge/postgresbase/core"
-	"github.com/lunarforge/postgresbase/forms/validators"
-	"github.com/lunarforge/postgresbase/tools/filesystem"
+	"github.com/lunarforge/xbase/core"
+	"github.com/lunarforge/xbase/forms/validators"
+	"github.com/lunarforge/xbase/tools/filesystem"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 )
 

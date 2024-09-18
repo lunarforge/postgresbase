@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lunarforge/postgresbase/forms"
+	"github.com/lunarforge/xbase/forms"
 )
 
 func TestRealtimeSubscribeValidate(t *testing.T) {

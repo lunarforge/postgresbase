@@ -1,4 +1,4 @@
-module github.com/lunarforge/postgresbase
+module github.com/lunarforge/xbase
 
 go 1.21
 

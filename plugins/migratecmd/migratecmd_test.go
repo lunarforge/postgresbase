@@ -7,12 +7,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lunarforge/postgresbase/daos"
-	"github.com/lunarforge/postgresbase/models"
-	"github.com/lunarforge/postgresbase/models/schema"
-	"github.com/lunarforge/postgresbase/plugins/migratecmd"
-	"github.com/lunarforge/postgresbase/tests"
-	"github.com/lunarforge/postgresbase/tools/types"
+	"github.com/lunarforge/xbase/daos"
+	"github.com/lunarforge/xbase/models"
+	"github.com/lunarforge/xbase/models/schema"
+	"github.com/lunarforge/xbase/plugins/migratecmd"
+	"github.com/lunarforge/xbase/tests"
+	"github.com/lunarforge/xbase/tools/types"
 )
 
 func TestAutomigrateCollectionCreate(t *testing.T) {
@@ -72,9 +72,9 @@ import (
 	"encoding/json"
 
 	"github.com/pocketbase/dbx"
-	"github.com/lunarforge/postgresbase/daos"
-	m "github.com/lunarforge/postgresbase/migrations"
-	"github.com/lunarforge/postgresbase/models"
+	"github.com/lunarforge/xbase/daos"
+	m "github.com/lunarforge/xbase/migrations"
+	"github.com/lunarforge/xbase/models"
 )
 
 func init() {
@@ -249,9 +249,9 @@ import (
 	"encoding/json"
 
 	"github.com/pocketbase/dbx"
-	"github.com/lunarforge/postgresbase/daos"
-	m "github.com/lunarforge/postgresbase/migrations"
-	"github.com/lunarforge/postgresbase/models"
+	"github.com/lunarforge/xbase/daos"
+	m "github.com/lunarforge/xbase/migrations"
+	"github.com/lunarforge/xbase/models"
 )
 
 func init() {
@@ -504,10 +504,10 @@ import (
 	"encoding/json"
 
 	"github.com/pocketbase/dbx"
-	"github.com/lunarforge/postgresbase/daos"
-	m "github.com/lunarforge/postgresbase/migrations"
-	"github.com/lunarforge/postgresbase/models/schema"
-	"github.com/lunarforge/postgresbase/tools/types"
+	"github.com/lunarforge/xbase/daos"
+	m "github.com/lunarforge/xbase/migrations"
+	"github.com/lunarforge/xbase/models/schema"
+	"github.com/lunarforge/xbase/tools/types"
 )
 
 func init() {

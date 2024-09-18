@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/lunarforge/postgresbase/tools/types"
+	"github.com/lunarforge/xbase/tools/types"
 )
 
 var _ Model = (*Log)(nil)

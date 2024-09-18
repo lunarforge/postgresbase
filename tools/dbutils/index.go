@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/lunarforge/postgresbase/tools/tokenizer"
+	"github.com/lunarforge/xbase/tools/tokenizer"
 )
 
 var (

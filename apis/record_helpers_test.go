@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lunarforge/postgresbase/apis"
-	"github.com/lunarforge/postgresbase/models"
-	"github.com/lunarforge/postgresbase/tests"
+	"github.com/lunarforge/xbase/apis"
+	"github.com/lunarforge/xbase/models"
+	"github.com/lunarforge/xbase/tests"
 	"github.com/labstack/echo/v5"
 )
 

@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/lunarforge/postgresbase/tools/list"
-	"github.com/lunarforge/postgresbase/tools/osutils"
-	"github.com/lunarforge/postgresbase/tools/security"
+	"github.com/lunarforge/xbase/tools/list"
+	"github.com/lunarforge/xbase/tools/osutils"
+	"github.com/lunarforge/xbase/tools/security"
 )
 
 func TestMoveDirContent(t *testing.T) {

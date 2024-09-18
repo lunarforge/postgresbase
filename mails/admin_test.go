@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lunarforge/postgresbase/mails"
-	"github.com/lunarforge/postgresbase/tests"
+	"github.com/lunarforge/xbase/mails"
+	"github.com/lunarforge/xbase/tests"
 )
 
 func TestSendAdminPasswordReset(t *testing.T) {

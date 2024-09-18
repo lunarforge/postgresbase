@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lunarforge/postgresbase/tools/rest"
+	"github.com/lunarforge/xbase/tools/rest"
 )
 
 func TestFindUploadedFiles(t *testing.T) {

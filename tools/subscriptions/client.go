@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/lunarforge/postgresbase/tools/inflector"
-	"github.com/lunarforge/postgresbase/tools/security"
+	"github.com/lunarforge/xbase/tools/inflector"
+	"github.com/lunarforge/xbase/tools/security"
 	"github.com/spf13/cast"
 )
 

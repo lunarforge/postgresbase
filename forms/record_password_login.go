@@ -4,9 +4,9 @@ import (
 	"database/sql"
 	"errors"
 
-	"github.com/lunarforge/postgresbase/core"
-	"github.com/lunarforge/postgresbase/daos"
-	"github.com/lunarforge/postgresbase/models"
+	"github.com/lunarforge/xbase/core"
+	"github.com/lunarforge/xbase/daos"
+	"github.com/lunarforge/xbase/models"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/go-ozzo/ozzo-validation/v4/is"
 )

@@ -3,7 +3,7 @@ package subscriptions_test
 import (
 	"testing"
 
-	"github.com/lunarforge/postgresbase/tools/subscriptions"
+	"github.com/lunarforge/xbase/tools/subscriptions"
 )
 
 func TestNewBroker(t *testing.T) {

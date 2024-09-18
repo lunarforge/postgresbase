@@ -28,7 +28,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/lunarforge/postgresbase/tools/store"
+	"github.com/lunarforge/xbase/tools/store"
 )
 
 // NewRegistry creates and initializes a new templates registry with

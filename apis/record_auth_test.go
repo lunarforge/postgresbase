@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lunarforge/postgresbase/core"
-	"github.com/lunarforge/postgresbase/daos"
-	"github.com/lunarforge/postgresbase/tests"
-	"github.com/lunarforge/postgresbase/tools/subscriptions"
-	"github.com/lunarforge/postgresbase/tools/types"
+	"github.com/lunarforge/xbase/core"
+	"github.com/lunarforge/xbase/daos"
+	"github.com/lunarforge/xbase/tests"
+	"github.com/lunarforge/xbase/tools/subscriptions"
+	"github.com/lunarforge/xbase/tools/types"
 	"github.com/labstack/echo/v5"
 )
 

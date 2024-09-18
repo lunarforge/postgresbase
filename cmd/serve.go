@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/lunarforge/postgresbase/apis"
-	"github.com/lunarforge/postgresbase/core"
+	"github.com/lunarforge/xbase/apis"
+	"github.com/lunarforge/xbase/core"
 	"github.com/spf13/cobra"
 )
 

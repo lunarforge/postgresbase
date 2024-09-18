@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/lunarforge/postgresbase/models"
+	"github.com/lunarforge/xbase/models"
 )
 
 const (
@@ -340,7 +340,7 @@ func (p *plugin) goBlankTemplate() (string, error) {
 
 import (
 	"github.com/pocketbase/dbx"
-	m "github.com/lunarforge/postgresbase/migrations"
+	m "github.com/lunarforge/xbase/migrations"
 )
 
 func init() {
@@ -371,9 +371,9 @@ import (
 	"encoding/json"
 
 	"github.com/pocketbase/dbx"
-	"github.com/lunarforge/postgresbase/daos"
-	m "github.com/lunarforge/postgresbase/migrations"
-	"github.com/lunarforge/postgresbase/models"
+	"github.com/lunarforge/xbase/daos"
+	m "github.com/lunarforge/xbase/migrations"
+	"github.com/lunarforge/xbase/models"
 )
 
 func init() {
@@ -410,9 +410,9 @@ import (
 	"encoding/json"
 
 	"github.com/pocketbase/dbx"
-	"github.com/lunarforge/postgresbase/daos"
-	m "github.com/lunarforge/postgresbase/migrations"
-	"github.com/lunarforge/postgresbase/models"
+	"github.com/lunarforge/xbase/daos"
+	m "github.com/lunarforge/xbase/migrations"
+	"github.com/lunarforge/xbase/models"
 )
 
 func init() {
@@ -458,9 +458,9 @@ import (
 	"encoding/json"
 
 	"github.com/pocketbase/dbx"
-	"github.com/lunarforge/postgresbase/daos"
-	m "github.com/lunarforge/postgresbase/migrations"
-	"github.com/lunarforge/postgresbase/models"
+	"github.com/lunarforge/xbase/daos"
+	m "github.com/lunarforge/xbase/migrations"
+	"github.com/lunarforge/xbase/models"
 )
 
 func init() {
@@ -720,15 +720,15 @@ func (p *plugin) goDiffTemplate(new *models.Collection, old *models.Collection) 
 	}
 
 	imports += "\n\t\"github.com/pocketbase/dbx\""
-	imports += "\n\t\"github.com/lunarforge/postgresbase/daos\""
-	imports += "\n\tm \"github.com/lunarforge/postgresbase/migrations\""
+	imports += "\n\t\"github.com/lunarforge/xbase/daos\""
+	imports += "\n\tm \"github.com/lunarforge/xbase/migrations\""
 
 	if strings.Contains(combined, "schema.SchemaField{") {
-		imports += "\n\t\"github.com/lunarforge/postgresbase/models/schema\""
+		imports += "\n\t\"github.com/lunarforge/xbase/models/schema\""
 	}
 
 	if strings.Contains(combined, "types.Pointer(") {
-		imports += "\n\t\"github.com/lunarforge/postgresbase/tools/types\""
+		imports += "\n\t\"github.com/lunarforge/xbase/tools/types\""
 	}
 	// ---
 

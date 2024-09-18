@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/lunarforge/postgresbase/tools/store"
+	"github.com/lunarforge/xbase/tools/store"
 	"github.com/spf13/cast"
 )
 

@@ -9,12 +9,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lunarforge/postgresbase/core"
-	"github.com/lunarforge/postgresbase/models"
-	"github.com/lunarforge/postgresbase/tokens"
-	"github.com/lunarforge/postgresbase/tools/list"
-	"github.com/lunarforge/postgresbase/tools/routine"
-	"github.com/lunarforge/postgresbase/tools/security"
+	"github.com/lunarforge/xbase/core"
+	"github.com/lunarforge/xbase/models"
+	"github.com/lunarforge/xbase/tokens"
+	"github.com/lunarforge/xbase/tools/list"
+	"github.com/lunarforge/xbase/tools/routine"
+	"github.com/lunarforge/xbase/tools/security"
 	"github.com/labstack/echo/v5"
 	"github.com/spf13/cast"
 )

@@ -1,7 +1,7 @@
 package hook
 
 import (
-	"github.com/lunarforge/postgresbase/tools/list"
+	"github.com/lunarforge/xbase/tools/list"
 )
 
 // Tagger defines an interface for event data structs that support tags/groups/categories/etc.

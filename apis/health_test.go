@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/lunarforge/postgresbase/tests"
+	"github.com/lunarforge/xbase/tests"
 )
 
 func TestHealthAPI(t *testing.T) {

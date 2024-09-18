@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/lunarforge/postgresbase/tools/list"
+	"github.com/lunarforge/xbase/tools/list"
 	"golang.org/x/net/html"
 )
 

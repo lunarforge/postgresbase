@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/lunarforge/postgresbase/daos"
-	"github.com/lunarforge/postgresbase/models"
-	"github.com/lunarforge/postgresbase/tools/dbutils"
-	"github.com/lunarforge/postgresbase/tools/list"
+	"github.com/lunarforge/xbase/daos"
+	"github.com/lunarforge/xbase/models"
+	"github.com/lunarforge/xbase/tools/dbutils"
+	"github.com/lunarforge/xbase/tools/list"
 	"github.com/pocketbase/dbx"
 )
 

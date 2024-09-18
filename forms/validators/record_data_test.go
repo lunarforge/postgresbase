@@ -7,14 +7,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lunarforge/postgresbase/daos"
-	"github.com/lunarforge/postgresbase/forms/validators"
-	"github.com/lunarforge/postgresbase/models"
-	"github.com/lunarforge/postgresbase/models/schema"
-	"github.com/lunarforge/postgresbase/tests"
-	"github.com/lunarforge/postgresbase/tools/filesystem"
-	"github.com/lunarforge/postgresbase/tools/rest"
-	"github.com/lunarforge/postgresbase/tools/types"
+	"github.com/lunarforge/xbase/daos"
+	"github.com/lunarforge/xbase/forms/validators"
+	"github.com/lunarforge/xbase/models"
+	"github.com/lunarforge/xbase/models/schema"
+	"github.com/lunarforge/xbase/tests"
+	"github.com/lunarforge/xbase/tools/filesystem"
+	"github.com/lunarforge/xbase/tools/rest"
+	"github.com/lunarforge/xbase/tools/types"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 )
 

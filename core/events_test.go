@@ -3,9 +3,9 @@ package core_test
 import (
 	"testing"
 
-	"github.com/lunarforge/postgresbase/core"
-	"github.com/lunarforge/postgresbase/models"
-	"github.com/lunarforge/postgresbase/tools/list"
+	"github.com/lunarforge/xbase/core"
+	"github.com/lunarforge/xbase/models"
+	"github.com/lunarforge/xbase/tools/list"
 )
 
 func TestBaseCollectionEventTags(t *testing.T) {

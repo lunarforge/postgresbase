@@ -3,9 +3,9 @@ package apis
 import (
 	"net/http"
 
-	"github.com/lunarforge/postgresbase/core"
-	"github.com/lunarforge/postgresbase/forms"
-	"github.com/lunarforge/postgresbase/models/settings"
+	"github.com/lunarforge/xbase/core"
+	"github.com/lunarforge/xbase/forms"
+	"github.com/lunarforge/xbase/models/settings"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/labstack/echo/v5"
 )

@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/lunarforge/postgresbase/core"
-	"github.com/lunarforge/postgresbase/tools/mailer"
+	"github.com/lunarforge/xbase/core"
+	"github.com/lunarforge/xbase/tools/mailer"
 )
 
 // TestApp is a wrapper app instance used for testing.

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lunarforge/postgresbase/apis"
-	"github.com/lunarforge/postgresbase/tests"
+	"github.com/lunarforge/xbase/apis"
+	"github.com/lunarforge/xbase/tests"
 	"github.com/labstack/echo/v5"
 	"github.com/spf13/cast"
 )

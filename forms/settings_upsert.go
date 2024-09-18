@@ -4,11 +4,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/lunarforge/postgresbase/core"
-	"github.com/lunarforge/postgresbase/daos"
-	"github.com/lunarforge/postgresbase/models"
-	"github.com/lunarforge/postgresbase/models/settings"
-	"github.com/lunarforge/postgresbase/tools/types"
+	"github.com/lunarforge/xbase/core"
+	"github.com/lunarforge/xbase/daos"
+	"github.com/lunarforge/xbase/models"
+	"github.com/lunarforge/xbase/models/settings"
+	"github.com/lunarforge/xbase/tools/types"
 	"github.com/pocketbase/dbx"
 )
 

@@ -3,7 +3,7 @@ package models_test
 import (
 	"testing"
 
-	"github.com/lunarforge/postgresbase/models"
+	"github.com/lunarforge/xbase/models"
 )
 
 func TestBaseModelHasId(t *testing.T) {

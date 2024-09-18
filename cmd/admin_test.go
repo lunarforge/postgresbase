@@ -3,8 +3,8 @@ package cmd_test
 import (
 	"testing"
 
-	"github.com/lunarforge/postgresbase/cmd"
-	"github.com/lunarforge/postgresbase/tests"
+	"github.com/lunarforge/xbase/cmd"
+	"github.com/lunarforge/xbase/tests"
 )
 
 func TestAdminCreateCommand(t *testing.T) {

@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lunarforge/postgresbase/core"
-	"github.com/lunarforge/postgresbase/models"
-	"github.com/lunarforge/postgresbase/tests"
-	"github.com/lunarforge/postgresbase/tools/list"
+	"github.com/lunarforge/xbase/core"
+	"github.com/lunarforge/xbase/models"
+	"github.com/lunarforge/xbase/tests"
+	"github.com/lunarforge/xbase/tools/list"
 	"github.com/labstack/echo/v5"
 )
 

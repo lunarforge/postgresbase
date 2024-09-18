@@ -10,8 +10,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/lunarforge/postgresbase/tests"
-	"github.com/lunarforge/postgresbase/tools/filesystem"
+	"github.com/lunarforge/xbase/tests"
+	"github.com/lunarforge/xbase/tools/filesystem"
 	"github.com/labstack/echo/v5"
 )
 

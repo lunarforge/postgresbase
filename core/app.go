@@ -7,13 +7,13 @@ import (
 	"context"
 	"log/slog"
 
-	"github.com/lunarforge/postgresbase/daos"
-	"github.com/lunarforge/postgresbase/models/settings"
-	"github.com/lunarforge/postgresbase/tools/filesystem"
-	"github.com/lunarforge/postgresbase/tools/hook"
-	"github.com/lunarforge/postgresbase/tools/mailer"
-	"github.com/lunarforge/postgresbase/tools/store"
-	"github.com/lunarforge/postgresbase/tools/subscriptions"
+	"github.com/lunarforge/xbase/daos"
+	"github.com/lunarforge/xbase/models/settings"
+	"github.com/lunarforge/xbase/tools/filesystem"
+	"github.com/lunarforge/xbase/tools/hook"
+	"github.com/lunarforge/xbase/tools/mailer"
+	"github.com/lunarforge/xbase/tools/store"
+	"github.com/lunarforge/xbase/tools/subscriptions"
 	"github.com/pocketbase/dbx"
 )
 

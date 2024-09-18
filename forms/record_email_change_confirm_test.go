@@ -5,10 +5,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/lunarforge/postgresbase/forms"
-	"github.com/lunarforge/postgresbase/models"
-	"github.com/lunarforge/postgresbase/tests"
-	"github.com/lunarforge/postgresbase/tools/security"
+	"github.com/lunarforge/xbase/forms"
+	"github.com/lunarforge/xbase/models"
+	"github.com/lunarforge/xbase/tests"
+	"github.com/lunarforge/xbase/tools/security"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 )
 

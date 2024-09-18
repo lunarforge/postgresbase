@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/lunarforge/postgresbase/tools/types"
+	"github.com/lunarforge/xbase/tools/types"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/vk"
 )

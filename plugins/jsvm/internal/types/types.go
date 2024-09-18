@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lunarforge/postgresbase/core"
-	"github.com/lunarforge/postgresbase/plugins/jsvm"
-	"github.com/lunarforge/postgresbase/tools/list"
+	"github.com/lunarforge/xbase/core"
+	"github.com/lunarforge/xbase/plugins/jsvm"
+	"github.com/lunarforge/xbase/tools/list"
 	"github.com/pocketbase/tygoja"
 )
 
@@ -1055,14 +1055,14 @@ func main() {
 		Packages: map[string][]string{
 			"github.com/go-ozzo/ozzo-validation/v4":                    {"Error"},
 			"github.com/pocketbase/dbx":                                {"*"},
-			"github.com/lunarforge/postgresbase/tools/security":   {"*"},
-			"github.com/lunarforge/postgresbase/tools/filesystem": {"*"},
-			"github.com/lunarforge/postgresbase/tools/template":   {"*"},
-			"github.com/lunarforge/postgresbase/tokens":           {"*"},
-			"github.com/lunarforge/postgresbase/mails":            {"*"},
-			"github.com/lunarforge/postgresbase/apis":             {"*"},
-			"github.com/lunarforge/postgresbase/forms":            {"*"},
-			"github.com/lunarforge/postgresbase":                  {"*"},
+			"github.com/lunarforge/xbase/tools/security":   {"*"},
+			"github.com/lunarforge/xbase/tools/filesystem": {"*"},
+			"github.com/lunarforge/xbase/tools/template":   {"*"},
+			"github.com/lunarforge/xbase/tokens":           {"*"},
+			"github.com/lunarforge/xbase/mails":            {"*"},
+			"github.com/lunarforge/xbase/apis":             {"*"},
+			"github.com/lunarforge/xbase/forms":            {"*"},
+			"github.com/lunarforge/xbase":                  {"*"},
 			"path/filepath": {"*"},
 			"os":            {"*"},
 			"os/exec":       {"Command"},

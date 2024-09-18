@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lunarforge/postgresbase/tools/list"
+	"github.com/lunarforge/xbase/tools/list"
 	"github.com/pocketbase/dbx"
 	_ "modernc.org/sqlite"
 )

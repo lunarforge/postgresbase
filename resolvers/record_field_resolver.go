@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/lunarforge/postgresbase/models"
-	"github.com/lunarforge/postgresbase/models/schema"
-	"github.com/lunarforge/postgresbase/tools/search"
-	"github.com/lunarforge/postgresbase/tools/security"
+	"github.com/lunarforge/xbase/models"
+	"github.com/lunarforge/xbase/models/schema"
+	"github.com/lunarforge/xbase/tools/search"
+	"github.com/lunarforge/xbase/tools/security"
 	"github.com/pocketbase/dbx"
 	"github.com/spf13/cast"
 )

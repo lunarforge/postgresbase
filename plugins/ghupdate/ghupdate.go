@@ -21,8 +21,8 @@ import (
 	"strings"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/lunarforge/postgresbase/core"
-	"github.com/lunarforge/postgresbase/tools/archive"
+	"github.com/lunarforge/xbase/core"
+	"github.com/lunarforge/xbase/tools/archive"
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"
 )

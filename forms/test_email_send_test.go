@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lunarforge/postgresbase/forms"
-	"github.com/lunarforge/postgresbase/tests"
+	"github.com/lunarforge/xbase/forms"
+	"github.com/lunarforge/xbase/tests"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 )
 

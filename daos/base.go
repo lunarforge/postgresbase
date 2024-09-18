@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lunarforge/postgresbase/models"
+	"github.com/lunarforge/xbase/models"
 	"github.com/pocketbase/dbx"
 )
 

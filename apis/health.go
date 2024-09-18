@@ -3,7 +3,7 @@ package apis
 import (
 	"net/http"
 
-	"github.com/lunarforge/postgresbase/core"
+	"github.com/lunarforge/xbase/core"
 	"github.com/labstack/echo/v5"
 )
 
