@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/forms"
+	"github.com/lunarforge/postgresbase/forms"
 )
 
 func TestRealtimeSubscribeValidate(t *testing.T) {

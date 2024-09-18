@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/search"
+	"github.com/lunarforge/postgresbase/tools/search"
 	"github.com/pocketbase/dbx"
 )
 

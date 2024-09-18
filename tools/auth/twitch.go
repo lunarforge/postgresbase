@@ -6,7 +6,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/types"
+	"github.com/lunarforge/postgresbase/tools/types"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/twitch"
 )

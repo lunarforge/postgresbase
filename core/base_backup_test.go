@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/core"
-	"github.com/AlperRehaYAZGAN/postgresbase/tests"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/archive"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/list"
+	"github.com/lunarforge/postgresbase/core"
+	"github.com/lunarforge/postgresbase/tests"
+	"github.com/lunarforge/postgresbase/tools/archive"
+	"github.com/lunarforge/postgresbase/tools/list"
 )
 
 func TestCreateBackup(t *testing.T) {

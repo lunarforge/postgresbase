@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/apis"
+	"github.com/lunarforge/postgresbase/apis"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 )
 

@@ -6,9 +6,9 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/filesystem"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/list"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/types"
+	"github.com/lunarforge/postgresbase/tools/filesystem"
+	"github.com/lunarforge/postgresbase/tools/list"
+	"github.com/lunarforge/postgresbase/tools/types"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/go-ozzo/ozzo-validation/v4/is"
 	"github.com/spf13/cast"

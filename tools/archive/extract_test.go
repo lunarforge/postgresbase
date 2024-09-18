@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/archive"
+	"github.com/lunarforge/postgresbase/tools/archive"
 )
 
 func TestExtractFailure(t *testing.T) {

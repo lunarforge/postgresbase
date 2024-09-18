@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/core"
-	"github.com/AlperRehaYAZGAN/postgresbase/daos"
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
-	"github.com/AlperRehaYAZGAN/postgresbase/tests"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/types"
+	"github.com/lunarforge/postgresbase/core"
+	"github.com/lunarforge/postgresbase/daos"
+	"github.com/lunarforge/postgresbase/models"
+	"github.com/lunarforge/postgresbase/tests"
+	"github.com/lunarforge/postgresbase/tools/types"
 	"github.com/labstack/echo/v5"
 	"github.com/pocketbase/dbx"
 )

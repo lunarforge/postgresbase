@@ -7,11 +7,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/auth"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/cron"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/mailer"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/rest"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/security"
+	"github.com/lunarforge/postgresbase/tools/auth"
+	"github.com/lunarforge/postgresbase/tools/cron"
+	"github.com/lunarforge/postgresbase/tools/mailer"
+	"github.com/lunarforge/postgresbase/tools/rest"
+	"github.com/lunarforge/postgresbase/tools/security"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/go-ozzo/ozzo-validation/v4/is"
 )

@@ -3,8 +3,8 @@ package forms_test
 import (
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/forms"
-	"github.com/AlperRehaYAZGAN/postgresbase/tests"
+	"github.com/lunarforge/postgresbase/forms"
+	"github.com/lunarforge/postgresbase/tests"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 )
 

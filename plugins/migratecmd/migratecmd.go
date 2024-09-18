@@ -23,11 +23,11 @@ import (
 	"time"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/AlperRehaYAZGAN/postgresbase/core"
-	"github.com/AlperRehaYAZGAN/postgresbase/migrations"
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/inflector"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/migrate"
+	"github.com/lunarforge/postgresbase/core"
+	"github.com/lunarforge/postgresbase/migrations"
+	"github.com/lunarforge/postgresbase/models"
+	"github.com/lunarforge/postgresbase/tools/inflector"
+	"github.com/lunarforge/postgresbase/tools/migrate"
 	"github.com/spf13/cobra"
 )
 

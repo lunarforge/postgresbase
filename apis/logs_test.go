@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tests"
+	"github.com/lunarforge/postgresbase/tests"
 	"github.com/labstack/echo/v5"
 )
 

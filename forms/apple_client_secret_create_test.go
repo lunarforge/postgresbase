@@ -9,8 +9,8 @@ import (
 	"encoding/pem"
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/forms"
-	"github.com/AlperRehaYAZGAN/postgresbase/tests"
+	"github.com/lunarforge/postgresbase/forms"
+	"github.com/lunarforge/postgresbase/tests"
 	"github.com/golang-jwt/jwt/v4"
 )
 

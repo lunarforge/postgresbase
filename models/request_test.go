@@ -3,7 +3,7 @@ package models_test
 import (
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
+	"github.com/lunarforge/postgresbase/models"
 )
 
 func TestRequestTableName(t *testing.T) {

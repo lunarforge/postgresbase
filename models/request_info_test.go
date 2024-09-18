@@ -3,7 +3,7 @@ package models_test
 import (
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
+	"github.com/lunarforge/postgresbase/models"
 )
 
 func TestRequestInfoHasModifierDataKeys(t *testing.T) {

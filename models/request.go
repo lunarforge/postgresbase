@@ -1,6 +1,6 @@
 package models
 
-import "github.com/AlperRehaYAZGAN/postgresbase/tools/types"
+import "github.com/lunarforge/postgresbase/tools/types"
 
 var _ Model = (*Request)(nil)
 

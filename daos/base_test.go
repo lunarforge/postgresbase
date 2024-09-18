@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/daos"
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
-	"github.com/AlperRehaYAZGAN/postgresbase/tests"
+	"github.com/lunarforge/postgresbase/daos"
+	"github.com/lunarforge/postgresbase/models"
+	"github.com/lunarforge/postgresbase/tests"
 )
 
 func TestNew(t *testing.T) {

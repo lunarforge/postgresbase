@@ -3,7 +3,7 @@ package validators_test
 import (
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/forms/validators"
+	"github.com/lunarforge/postgresbase/forms/validators"
 )
 
 func TestCompare(t *testing.T) {

@@ -15,7 +15,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/list"
+	"github.com/lunarforge/postgresbase/tools/list"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"

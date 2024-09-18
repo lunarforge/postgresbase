@@ -1,8 +1,8 @@
 package migrations
 
 import (
-	"github.com/AlperRehaYAZGAN/postgresbase/daos"
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
+	"github.com/lunarforge/postgresbase/daos"
+	"github.com/lunarforge/postgresbase/models"
 	"github.com/pocketbase/dbx"
 )
 

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/security"
+	"github.com/lunarforge/postgresbase/tools/security"
 )
 
 func TestS256Challenge(t *testing.T) {

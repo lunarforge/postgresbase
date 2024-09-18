@@ -1,4 +1,4 @@
-module github.com/AlperRehaYAZGAN/postgresbase
+module github.com/lunarforge/postgresbase
 
 go 1.21
 

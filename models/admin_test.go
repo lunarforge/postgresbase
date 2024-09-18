@@ -3,8 +3,8 @@ package models_test
 import (
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/types"
+	"github.com/lunarforge/postgresbase/models"
+	"github.com/lunarforge/postgresbase/tools/types"
 )
 
 func TestAdminTableName(t *testing.T) {

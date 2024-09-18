@@ -4,7 +4,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/routine"
+	"github.com/lunarforge/postgresbase/tools/routine"
 )
 
 func TestFireAndForget(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/search"
+	"github.com/lunarforge/postgresbase/tools/search"
 )
 
 func TestSortFieldBuildExpr(t *testing.T) {

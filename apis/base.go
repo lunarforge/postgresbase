@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/core"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/rest"
-	"github.com/AlperRehaYAZGAN/postgresbase/ui"
+	"github.com/lunarforge/postgresbase/core"
+	"github.com/lunarforge/postgresbase/tools/rest"
+	"github.com/lunarforge/postgresbase/ui"
 	"github.com/labstack/echo/v5"
 	"github.com/labstack/echo/v5/middleware"
 	"github.com/spf13/cast"

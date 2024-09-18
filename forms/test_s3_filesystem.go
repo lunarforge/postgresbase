@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/core"
-	"github.com/AlperRehaYAZGAN/postgresbase/models/settings"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/filesystem"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/security"
+	"github.com/lunarforge/postgresbase/core"
+	"github.com/lunarforge/postgresbase/models/settings"
+	"github.com/lunarforge/postgresbase/tools/filesystem"
+	"github.com/lunarforge/postgresbase/tools/security"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 )
 

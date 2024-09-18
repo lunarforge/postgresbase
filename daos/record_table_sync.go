@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
-	"github.com/AlperRehaYAZGAN/postgresbase/models/schema"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/dbutils"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/security"
+	"github.com/lunarforge/postgresbase/models"
+	"github.com/lunarforge/postgresbase/models/schema"
+	"github.com/lunarforge/postgresbase/tools/dbutils"
+	"github.com/lunarforge/postgresbase/tools/security"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/pocketbase/dbx"
 )

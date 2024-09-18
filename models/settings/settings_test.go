@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/models/settings"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/auth"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/mailer"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/types"
+	"github.com/lunarforge/postgresbase/models/settings"
+	"github.com/lunarforge/postgresbase/tools/auth"
+	"github.com/lunarforge/postgresbase/tools/mailer"
+	"github.com/lunarforge/postgresbase/tools/types"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 )
 

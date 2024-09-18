@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/daos"
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/dbutils"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/list"
+	"github.com/lunarforge/postgresbase/daos"
+	"github.com/lunarforge/postgresbase/models"
+	"github.com/lunarforge/postgresbase/tools/dbutils"
+	"github.com/lunarforge/postgresbase/tools/list"
 	"github.com/pocketbase/dbx"
 )
 

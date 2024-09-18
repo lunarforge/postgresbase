@@ -3,9 +3,9 @@ package daos
 import (
 	"encoding/json"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/security"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/types"
+	"github.com/lunarforge/postgresbase/models"
+	"github.com/lunarforge/postgresbase/tools/security"
+	"github.com/lunarforge/postgresbase/tools/types"
 	"github.com/pocketbase/dbx"
 )
 

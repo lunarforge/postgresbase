@@ -3,10 +3,10 @@ package apis
 import (
 	"net/http"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/core"
-	"github.com/AlperRehaYAZGAN/postgresbase/forms"
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/search"
+	"github.com/lunarforge/postgresbase/core"
+	"github.com/lunarforge/postgresbase/forms"
+	"github.com/lunarforge/postgresbase/models"
+	"github.com/lunarforge/postgresbase/tools/search"
 	"github.com/labstack/echo/v5"
 )
 

@@ -3,8 +3,8 @@ package models
 import (
 	"encoding/json"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/models/schema"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/types"
+	"github.com/lunarforge/postgresbase/models/schema"
+	"github.com/lunarforge/postgresbase/tools/types"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/go-ozzo/ozzo-validation/v4/is"
 )

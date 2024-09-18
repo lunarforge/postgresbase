@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
-	"github.com/AlperRehaYAZGAN/postgresbase/models/schema"
-	"github.com/AlperRehaYAZGAN/postgresbase/tests"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/list"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/types"
+	"github.com/lunarforge/postgresbase/models"
+	"github.com/lunarforge/postgresbase/models/schema"
+	"github.com/lunarforge/postgresbase/tests"
+	"github.com/lunarforge/postgresbase/tools/list"
+	"github.com/lunarforge/postgresbase/tools/types"
 	"github.com/pocketbase/dbx"
 )
 

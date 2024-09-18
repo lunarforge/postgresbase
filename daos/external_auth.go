@@ -3,7 +3,7 @@ package daos
 import (
 	"errors"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
+	"github.com/lunarforge/postgresbase/models"
 	"github.com/pocketbase/dbx"
 )
 

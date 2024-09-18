@@ -4,9 +4,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/daos"
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
-	"github.com/AlperRehaYAZGAN/postgresbase/models/schema"
+	"github.com/lunarforge/postgresbase/daos"
+	"github.com/lunarforge/postgresbase/models"
+	"github.com/lunarforge/postgresbase/models/schema"
 	"github.com/pocketbase/dbx"
 )
 

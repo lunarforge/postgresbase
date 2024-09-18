@@ -5,12 +5,12 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/daos"
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
-	"github.com/AlperRehaYAZGAN/postgresbase/models/schema"
-	"github.com/AlperRehaYAZGAN/postgresbase/models/settings"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/migrate"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/types"
+	"github.com/lunarforge/postgresbase/daos"
+	"github.com/lunarforge/postgresbase/models"
+	"github.com/lunarforge/postgresbase/models/schema"
+	"github.com/lunarforge/postgresbase/models/settings"
+	"github.com/lunarforge/postgresbase/tools/migrate"
+	"github.com/lunarforge/postgresbase/tools/types"
 	"github.com/pocketbase/dbx"
 )
 

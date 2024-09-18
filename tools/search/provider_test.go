@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/list"
+	"github.com/lunarforge/postgresbase/tools/list"
 	"github.com/pocketbase/dbx"
 	_ "modernc.org/sqlite"
 )

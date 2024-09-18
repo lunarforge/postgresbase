@@ -6,11 +6,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
-	"github.com/AlperRehaYAZGAN/postgresbase/resolvers"
-	"github.com/AlperRehaYAZGAN/postgresbase/tests"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/list"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/search"
+	"github.com/lunarforge/postgresbase/models"
+	"github.com/lunarforge/postgresbase/resolvers"
+	"github.com/lunarforge/postgresbase/tests"
+	"github.com/lunarforge/postgresbase/tools/list"
+	"github.com/lunarforge/postgresbase/tools/search"
 )
 
 func TestRecordFieldResolverUpdateQuery(t *testing.T) {

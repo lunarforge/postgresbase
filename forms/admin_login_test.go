@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/forms"
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
-	"github.com/AlperRehaYAZGAN/postgresbase/tests"
+	"github.com/lunarforge/postgresbase/forms"
+	"github.com/lunarforge/postgresbase/models"
+	"github.com/lunarforge/postgresbase/tests"
 )
 
 func TestAdminLoginValidateAndSubmit(t *testing.T) {

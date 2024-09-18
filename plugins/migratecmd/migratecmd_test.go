@@ -7,12 +7,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/daos"
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
-	"github.com/AlperRehaYAZGAN/postgresbase/models/schema"
-	"github.com/AlperRehaYAZGAN/postgresbase/plugins/migratecmd"
-	"github.com/AlperRehaYAZGAN/postgresbase/tests"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/types"
+	"github.com/lunarforge/postgresbase/daos"
+	"github.com/lunarforge/postgresbase/models"
+	"github.com/lunarforge/postgresbase/models/schema"
+	"github.com/lunarforge/postgresbase/plugins/migratecmd"
+	"github.com/lunarforge/postgresbase/tests"
+	"github.com/lunarforge/postgresbase/tools/types"
 )
 
 func TestAutomigrateCollectionCreate(t *testing.T) {
@@ -72,9 +72,9 @@ import (
 	"encoding/json"
 
 	"github.com/pocketbase/dbx"
-	"github.com/AlperRehaYAZGAN/postgresbase/daos"
-	m "github.com/AlperRehaYAZGAN/postgresbase/migrations"
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
+	"github.com/lunarforge/postgresbase/daos"
+	m "github.com/lunarforge/postgresbase/migrations"
+	"github.com/lunarforge/postgresbase/models"
 )
 
 func init() {
@@ -249,9 +249,9 @@ import (
 	"encoding/json"
 
 	"github.com/pocketbase/dbx"
-	"github.com/AlperRehaYAZGAN/postgresbase/daos"
-	m "github.com/AlperRehaYAZGAN/postgresbase/migrations"
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
+	"github.com/lunarforge/postgresbase/daos"
+	m "github.com/lunarforge/postgresbase/migrations"
+	"github.com/lunarforge/postgresbase/models"
 )
 
 func init() {
@@ -504,10 +504,10 @@ import (
 	"encoding/json"
 
 	"github.com/pocketbase/dbx"
-	"github.com/AlperRehaYAZGAN/postgresbase/daos"
-	m "github.com/AlperRehaYAZGAN/postgresbase/migrations"
-	"github.com/AlperRehaYAZGAN/postgresbase/models/schema"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/types"
+	"github.com/lunarforge/postgresbase/daos"
+	m "github.com/lunarforge/postgresbase/migrations"
+	"github.com/lunarforge/postgresbase/models/schema"
+	"github.com/lunarforge/postgresbase/tools/types"
 )
 
 func init() {

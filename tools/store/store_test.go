@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/store"
+	"github.com/lunarforge/postgresbase/tools/store"
 )
 
 func TestNew(t *testing.T) {

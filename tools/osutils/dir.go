@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/list"
+	"github.com/lunarforge/postgresbase/tools/list"
 )
 
 // MoveDirContent moves the src dir content, that is not listed in the exclide list,

@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/inflector"
+	"github.com/lunarforge/postgresbase/tools/inflector"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 )
 

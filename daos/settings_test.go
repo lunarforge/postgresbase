@@ -3,8 +3,8 @@ package daos_test
 import (
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tests"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/security"
+	"github.com/lunarforge/postgresbase/tests"
+	"github.com/lunarforge/postgresbase/tools/security"
 )
 
 func TestSaveAndFindSettings(t *testing.T) {

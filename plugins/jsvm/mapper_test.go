@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/plugins/jsvm"
+	"github.com/lunarforge/postgresbase/plugins/jsvm"
 )
 
 func TestFieldMapper(t *testing.T) {

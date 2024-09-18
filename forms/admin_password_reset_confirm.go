@@ -1,10 +1,10 @@
 package forms
 
 import (
-	"github.com/AlperRehaYAZGAN/postgresbase/core"
-	"github.com/AlperRehaYAZGAN/postgresbase/daos"
-	"github.com/AlperRehaYAZGAN/postgresbase/forms/validators"
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
+	"github.com/lunarforge/postgresbase/core"
+	"github.com/lunarforge/postgresbase/daos"
+	"github.com/lunarforge/postgresbase/forms/validators"
+	"github.com/lunarforge/postgresbase/models"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 )
 

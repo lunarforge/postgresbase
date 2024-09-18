@@ -4,7 +4,7 @@ import (
 	"context"
 	"regexp"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/core"
+	"github.com/lunarforge/postgresbase/core"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 )
 

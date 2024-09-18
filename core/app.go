@@ -7,13 +7,13 @@ import (
 	"context"
 	"log/slog"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/daos"
-	"github.com/AlperRehaYAZGAN/postgresbase/models/settings"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/filesystem"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/hook"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/mailer"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/store"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/subscriptions"
+	"github.com/lunarforge/postgresbase/daos"
+	"github.com/lunarforge/postgresbase/models/settings"
+	"github.com/lunarforge/postgresbase/tools/filesystem"
+	"github.com/lunarforge/postgresbase/tools/hook"
+	"github.com/lunarforge/postgresbase/tools/mailer"
+	"github.com/lunarforge/postgresbase/tools/store"
+	"github.com/lunarforge/postgresbase/tools/subscriptions"
 	"github.com/pocketbase/dbx"
 )
 

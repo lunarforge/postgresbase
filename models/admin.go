@@ -5,8 +5,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/security"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/types"
+	"github.com/lunarforge/postgresbase/tools/security"
+	"github.com/lunarforge/postgresbase/tools/types"
 	"golang.org/x/crypto/bcrypt"
 )
 

@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/apis"
-	"github.com/AlperRehaYAZGAN/postgresbase/core"
+	"github.com/lunarforge/postgresbase/apis"
+	"github.com/lunarforge/postgresbase/core"
 	"github.com/labstack/echo/v5"
 )
 

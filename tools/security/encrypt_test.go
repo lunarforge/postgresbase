@@ -3,7 +3,7 @@ package security_test
 import (
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/security"
+	"github.com/lunarforge/postgresbase/tools/security"
 )
 
 func TestEncrypt(t *testing.T) {

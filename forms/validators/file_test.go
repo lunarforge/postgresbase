@@ -5,10 +5,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/forms/validators"
-	"github.com/AlperRehaYAZGAN/postgresbase/tests"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/filesystem"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/rest"
+	"github.com/lunarforge/postgresbase/forms/validators"
+	"github.com/lunarforge/postgresbase/tests"
+	"github.com/lunarforge/postgresbase/tools/filesystem"
+	"github.com/lunarforge/postgresbase/tools/rest"
 )
 
 func TestUploadedFileSize(t *testing.T) {

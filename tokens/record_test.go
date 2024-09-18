@@ -3,8 +3,8 @@ package tokens_test
 import (
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tests"
-	"github.com/AlperRehaYAZGAN/postgresbase/tokens"
+	"github.com/lunarforge/postgresbase/tests"
+	"github.com/lunarforge/postgresbase/tokens"
 )
 
 func TestNewRecordAuthToken(t *testing.T) {
